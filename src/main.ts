@@ -7,7 +7,7 @@ dotenv.config();
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 loadEvents(client);
-console.log("Bot is ready!");
+
 client.login(process.env.CLIENT_TOKEN).then(() => {
     console.log(
         ` Successfully logged in as: ${client.user.tag}`
