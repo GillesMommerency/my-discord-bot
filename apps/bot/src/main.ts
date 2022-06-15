@@ -1,4 +1,5 @@
 import {loadEvents} from "./init/eventLoader";
+import * as process from "process";
 const {Client, Intents} = require('discord.js');
 
 const dotenv = require('dotenv');
