@@ -10,15 +10,12 @@ export const onMessage = async (message: Message) => {
 
     switch (cmd) {
         case 'play':
-            console.log('play');
             await addSong(message, args);
             break;
         case 'help':
-            console.log('help');
             await message.reply('The help command is not yet implemented.');
             break;
         default:
-            console.log('default');
             await message.reply('Unknown command, please use -help for a list of commands.');
             break;
     }
