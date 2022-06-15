@@ -1,5 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/apps/bot/.env
+/apps/bot/node_modules
+/apps/bot/dist
+
+/apps/api/.env
+/apps/api/node_modules
+/apps/api/dist
+
+/apps/web/.env
+/apps/web/node_modules
+/apps/web/dist
 # dependencies
 node_modules
 .pnp
